@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="device-width, initial-scale=1.0" />
+    <script src="nostr.bundle.js"></script>
+    <script src="jsQR.js"></script>
+</head>
+
+<body>
+    <h1>NIP-46 RPC Test wallet</h1>
+        <div id="status_output">
+            開始する手法を選択してください
+        </div>    
+    <hr />
+
+    <h2>Started by the signer (nsecBunker)</h2>
+    <div>
+        rpc relay: <input type="text" id="nsecbunker_mode_relay_input" value="wss://relay.nsecbunker.com/"></input>
+    </div>
+    <div>
+        <button type="button" id="nsecbunker_mode_start">開始</button>
+    </div>
+    <div id="nsecbunker_mode_token_output">
+        ここにトークンを表示します。
+    </div>
+    <pre id="nsecbunker_mode_status_output"></pre>
+    <hr />
+
+    <h2>Started by the client</h2>
+    <div>
+        nostrconnect: <input type="text" id="started_by_the_client_mode_token_input" value=""></input>
+    </div>
+    <div>
+        QRコード読み込み: <input type="file" accept=".jpg, .png, .gif" id="started_by_the_client_mode_read_qr"></button>
+    </div>
+    <div>
+        <button type="button" id="started_by_the_client_mode_start">開始</button>
+    </div>
+    <pre id="started_by_the_client_mode_status_output"></pre>
+    <hr />
+
+    <script type="text/javascript" src="rpc.js"></script>
+    <script type="text/javascript" src="wallet_script.js"></script>
+</body>
+
+</html>
