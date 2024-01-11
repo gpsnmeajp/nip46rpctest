@@ -1,5 +1,5 @@
 # nip46rpctest
-+ Demo: https://sabowl.sakura.ne.jp/nip46rpctest/wallet.htm
++ Demo(NIP-07必須): https://sabowl.sakura.ne.jp/nip46rpctest/wallet.htm
 + Qiita: https://qiita.com/gpsnmeajp/items/29593094b35d8abf4821
 + nip46: https://github.com/nostr-protocol/nips/blob/master/46.md
 
